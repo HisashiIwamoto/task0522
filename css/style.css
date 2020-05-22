@@ -1,0 +1,12 @@
+header {
+  height: 130px;
+  width: 1280px;
+}
+
+.header-title h1 {
+  margin: 10px auto;
+}
+
+.header-list {
+  float: right;
+}
