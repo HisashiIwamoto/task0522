@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  height: 130px;
+  height: 100px;
   border: slategrey solid 0.2px;
   text-align: center;
 }
@@ -12,10 +12,6 @@ header {
   float: left;
   margin: 0;
   padding-left: 80px;
-}
-
-main {
-  margin: 0 auto;
 }
 
 .header-list {
@@ -33,11 +29,96 @@ main {
   float: left;
   padding-left: 30px;
 }
+
+.cliant {
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.parent {
+  width: 300px;
+  margin: 5px 10px;
+  padding: 5px;
+  border: 1px solid #aaa;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.parent img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+.inner {
+  border: 1px dashed #ccc;
+  width: 240px;
+  display: inline-block;
+}
+
+.inner h3,
+p {
+  padding: 2px;
+  margin: 0;
+}
+
+.cliant img {
+}
+
+.company-content {
+  float: left;
+  padding-left: 150px;
+}
+
+.company-introduction {
+  margin-bottom: 100px;
+}
+.company-img {
+  float: left;
+  width: 100px;
+  height: 25px;
+  padding: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 1px solid black;
+}
+
+.company {
+  float: left;
+  padding-left: 150px;
+}
+
+.company-content-text {
+  width: 300px;
+  margin: 5px 10px;
+  padding: 5px;
+  border: 1px solid #aaa;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.company-content-text img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+.detail {
+  border: 1px dashed #ccc;
+  width: 240px;
+  display: inline-block;
+}
+
 footer {
+  clear: both;
   height: 50px;
   font-size: 15px;
   background-color: #808080;
 }
+
 .footer p {
   float: left;
   margin: 0;
